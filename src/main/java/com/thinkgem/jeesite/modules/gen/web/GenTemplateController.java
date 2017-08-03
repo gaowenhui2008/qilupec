@@ -81,5 +81,5 @@ public class GenTemplateController extends BaseController {
 		addMessage(redirectAttributes, "删除代码模板成功");
 		return "redirect:" + adminPath + "/gen/genTemplate/?repage";
 	}
-
+	/*Java*/
 }
